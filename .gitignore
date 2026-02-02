@@ -1,0 +1,48 @@
+# Credentials and secrets
+.credentials.json
+credentials.json
+*.secret
+*.key
+
+# macOS metadata
+._*
+.DS_Store
+
+# Large runtime directories
+local/
+debug/
+projects/
+cache/
+statsig/
+telemetry/
+file-history/
+shell-snapshots/
+paste-cache/
+
+# Backup directories
+.claude.backup.*
+
+# Large transcript files
+*.jsonl
+
+# IDE state
+ide/
+
+# Session-specific state
+session-env/
+
+# Hook state (runtime)
+hook-state/
+
+# AI system runtime
+ai-system/
+
+# Plugin marketplaces (nested git repos)
+plugins/marketplaces/
+
+# Debug logs
+*-debug.log
+firebase-debug.log
+
+# Stats cache
+stats-cache.json
