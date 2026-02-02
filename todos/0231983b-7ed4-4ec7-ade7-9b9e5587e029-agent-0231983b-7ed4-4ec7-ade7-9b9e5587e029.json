@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Fix critical bugs from Assignment 1",
+    "status": "in_progress",
+    "activeForm": "Fixing Assignment 1 bugs"
+  },
+  {
+    "content": "Add createStem() function to bitcmp module",
+    "status": "pending",
+    "activeForm": "Adding createStem() function"
+  },
+  {
+    "content": "Update Makefile to add dict2 target",
+    "status": "pending",
+    "activeForm": "Updating Makefile for dict2"
+  },
+  {
+    "content": "Create dictionary abstraction layer",
+    "status": "pending",
+    "activeForm": "Creating dictionary abstraction"
+  },
+  {
+    "content": "Implement Patricia tree core structure",
+    "status": "pending",
+    "activeForm": "Implementing Patricia tree"
+  }
+]

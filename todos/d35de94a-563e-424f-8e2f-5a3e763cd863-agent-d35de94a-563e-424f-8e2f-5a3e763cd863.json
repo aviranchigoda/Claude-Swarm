@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Test compilation",
+    "status": "completed",
+    "activeForm": "Testing compilation"
+  },
+  {
+    "content": "Test dict1 (linked list) functionality",
+    "status": "in_progress",
+    "activeForm": "Testing dict1 functionality"
+  },
+  {
+    "content": "Test dict2 (patricia tree) functionality",
+    "status": "pending",
+    "activeForm": "Testing dict2 functionality"
+  },
+  {
+    "content": "Fix any remaining bugs",
+    "status": "pending",
+    "activeForm": "Fixing remaining bugs"
+  },
+  {
+    "content": "Run valgrind memory checks",
+    "status": "pending",
+    "activeForm": "Running memory checks"
+  },
+  {
+    "content": "Write performance analysis report",
+    "status": "pending",
+    "activeForm": "Writing report"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Attempt verification build (make clean && make client)",
+    "status": "in_progress",
+    "activeForm": "Attempting verification build"
+  },
+  {
+    "content": "Fix any compilation errors (format specifiers, type mismatches)",
+    "status": "pending",
+    "activeForm": "Fixing compilation errors"
+  },
+  {
+    "content": "Test client on small directory",
+    "status": "pending",
+    "activeForm": "Testing on small directory"
+  },
+  {
+    "content": "Test client on ~/Desktop/software (large directory)",
+    "status": "pending",
+    "activeForm": "Testing on large directory"
+  },
+  {
+    "content": "Verify server receives files",
+    "status": "pending",
+    "activeForm": "Verifying server receives files"
+  }
+]

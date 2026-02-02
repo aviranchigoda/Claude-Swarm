@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Deploy server code to Linode via rsync",
+    "status": "completed",
+    "activeForm": "Deploying server code to Linode"
+  },
+  {
+    "content": "Build server on Linode",
+    "status": "completed",
+    "activeForm": "Building server on Linode"
+  },
+  {
+    "content": "Start server on Linode",
+    "status": "completed",
+    "activeForm": "Starting server on Linode"
+  },
+  {
+    "content": "Check if deployment-1 synced",
+    "status": "completed",
+    "activeForm": "Checking if deployment-1 synced"
+  },
+  {
+    "content": "Create launchd plist for macOS auto-start",
+    "status": "pending",
+    "activeForm": "Creating launchd plist"
+  },
+  {
+    "content": "Set up deletion protection",
+    "status": "pending",
+    "activeForm": "Setting up deletion protection"
+  }
+]

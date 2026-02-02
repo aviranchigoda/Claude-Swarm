@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Analyze key pickup mechanics and fix multiple increment bug",
+    "status": "in_progress",
+    "activeForm": "Analyzing key pickup mechanics and fixing multiple increment bug"
+  },
+  {
+    "content": "Verify key drops from KeyBulletKin correctly",
+    "status": "pending",
+    "activeForm": "Verifying key drops from KeyBulletKin correctly"
+  },
+  {
+    "content": "Fix treasure box opening with K key requirement",
+    "status": "pending",
+    "activeForm": "Fixing treasure box opening with K key requirement"
+  },
+  {
+    "content": "Test complete key-treasurebox interaction",
+    "status": "pending",
+    "activeForm": "Testing complete key-treasurebox interaction"
+  }
+]

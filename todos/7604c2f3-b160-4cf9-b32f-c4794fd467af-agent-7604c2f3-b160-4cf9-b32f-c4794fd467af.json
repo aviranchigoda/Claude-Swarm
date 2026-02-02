@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Backup and remove corrupted display preferences",
+    "status": "completed",
+    "activeForm": "Backing up and removing corrupted display preferences"
+  },
+  {
+    "content": "Clear WindowServer cache",
+    "status": "completed",
+    "activeForm": "Clearing WindowServer cache"
+  },
+  {
+    "content": "Reset NVRAM display routing",
+    "status": "in_progress",
+    "activeForm": "Resetting NVRAM display routing"
+  },
+  {
+    "content": "Restart WindowServer",
+    "status": "pending",
+    "activeForm": "Restarting WindowServer"
+  }
+]

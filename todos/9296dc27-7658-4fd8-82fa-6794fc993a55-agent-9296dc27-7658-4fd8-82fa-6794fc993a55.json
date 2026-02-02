@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Fix key pickup - player should only pick up key once, not continuously",
+    "status": "pending",
+    "activeForm": "Fixing key pickup to be one-time only"
+  },
+  {
+    "content": "Verify key drops from KeyBulletKin on death",
+    "status": "pending",
+    "activeForm": "Verifying key spawning mechanism"
+  },
+  {
+    "content": "Fix treasure box opening with K key and key consumption",
+    "status": "pending",
+    "activeForm": "Fixing treasure box key requirement"
+  },
+  {
+    "content": "Analyze Project 2 Task Sheet requirements for keys and treasure boxes",
+    "status": "pending",
+    "activeForm": "Analyzing task sheet requirements"
+  }
+]

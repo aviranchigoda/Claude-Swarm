@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Stage all files for commit",
+    "status": "in_progress",
+    "activeForm": "Staging all files for commit"
+  },
+  {
+    "content": "Make Initial Commit with exact message",
+    "status": "pending",
+    "activeForm": "Making Initial Commit"
+  },
+  {
+    "content": "Configure GitLab remote repository",
+    "status": "pending",
+    "activeForm": "Configuring GitLab remote repository"
+  },
+  {
+    "content": "Push Initial Commit to GitLab",
+    "status": "pending",
+    "activeForm": "Pushing Initial Commit to GitLab"
+  },
+  {
+    "content": "Verify Initial Commit on GitLab",
+    "status": "pending",
+    "activeForm": "Verifying Initial Commit"
+  }
+]

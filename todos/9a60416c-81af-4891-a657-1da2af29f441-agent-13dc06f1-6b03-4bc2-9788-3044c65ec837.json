@@ -1,0 +1,52 @@
+[
+  {
+    "content": "Create world package with Room base class using template method pattern",
+    "status": "completed",
+    "activeForm": "Creating world package with Room base class using template method pattern"
+  },
+  {
+    "content": "Create CharacterAbility strategy interface and implementations",
+    "status": "completed",
+    "activeForm": "Creating CharacterAbility strategy interface and implementations"
+  },
+  {
+    "content": "Create Weapon strategy interface and implementations",
+    "status": "in_progress",
+    "activeForm": "Creating Weapon strategy interface and implementations"
+  },
+  {
+    "content": "Create PropertyBackedEntityFactory for data-driven entity creation",
+    "status": "pending",
+    "activeForm": "Creating PropertyBackedEntityFactory for data-driven entity creation"
+  },
+  {
+    "content": "Create HeadsUpDisplay model and update UserInterface",
+    "status": "pending",
+    "activeForm": "Creating HeadsUpDisplay model and updating UserInterface"
+  },
+  {
+    "content": "Update ShadowDungeon to use GameContext instead of static fields",
+    "status": "pending",
+    "activeForm": "Updating ShadowDungeon to use GameContext instead of static fields"
+  },
+  {
+    "content": "Update Player class to use GameContext and strategies",
+    "status": "pending",
+    "activeForm": "Updating Player class to use GameContext and strategies"
+  },
+  {
+    "content": "Update all Room classes to extend base Room and use GameContext",
+    "status": "pending",
+    "activeForm": "Updating all Room classes to extend base Room and use GameContext"
+  },
+  {
+    "content": "Update all entity classes to use GameContext instead of static references",
+    "status": "pending",
+    "activeForm": "Updating all entity classes to use GameContext instead of static references"
+  },
+  {
+    "content": "Test compilation and runtime functionality",
+    "status": "pending",
+    "activeForm": "Testing compilation and runtime functionality"
+  }
+]

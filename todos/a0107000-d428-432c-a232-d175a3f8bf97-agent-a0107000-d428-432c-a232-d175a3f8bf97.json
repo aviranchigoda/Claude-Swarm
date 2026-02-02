@@ -1,0 +1,57 @@
+[
+  {
+    "content": "Create python/ai directory structure",
+    "status": "completed",
+    "activeForm": "Creating python/ai directory structure"
+  },
+  {
+    "content": "Add intentions.proto and orders.proto",
+    "status": "completed",
+    "activeForm": "Adding intentions.proto and orders.proto"
+  },
+  {
+    "content": "Create Python requirements.txt",
+    "status": "completed",
+    "activeForm": "Creating Python requirements.txt"
+  },
+  {
+    "content": "Implement config and utils modules",
+    "status": "completed",
+    "activeForm": "Implementing config and utils modules"
+  },
+  {
+    "content": "Create connectors for order and market data",
+    "status": "completed",
+    "activeForm": "Creating connectors for order and market data"
+  },
+  {
+    "content": "Implement intention compiler",
+    "status": "completed",
+    "activeForm": "Implementing intention compiler"
+  },
+  {
+    "content": "Implement CVXPY global optimizer",
+    "status": "in_progress",
+    "activeForm": "Implementing CVXPY global optimizer"
+  },
+  {
+    "content": "Add fairness and manipulation monitors",
+    "status": "pending",
+    "activeForm": "Adding fairness and manipulation monitors"
+  },
+  {
+    "content": "Implement predictive settlement",
+    "status": "pending",
+    "activeForm": "Implementing predictive settlement"
+  },
+  {
+    "content": "Create gRPC service entrypoint",
+    "status": "pending",
+    "activeForm": "Creating gRPC service entrypoint"
+  },
+  {
+    "content": "Add Python README",
+    "status": "pending",
+    "activeForm": "Adding Python README"
+  }
+]

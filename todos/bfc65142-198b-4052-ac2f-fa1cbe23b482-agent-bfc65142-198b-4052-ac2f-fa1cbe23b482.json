@@ -1,0 +1,47 @@
+[
+  {
+    "content": "Set up project structure with proper C files and headers",
+    "status": "pending",
+    "id": "1"
+  },
+  {
+    "content": "Create Makefile for building dict1 executable",
+    "status": "pending",
+    "id": "2"
+  },
+  {
+    "content": "Define struct for address record with 35 fields",
+    "status": "pending",
+    "id": "3"
+  },
+  {
+    "content": "Implement CSV reading functionality with proper parsing",
+    "status": "pending",
+    "id": "4"
+  },
+  {
+    "content": "Implement linked list data structure for dictionary",
+    "status": "pending",
+    "id": "5"
+  },
+  {
+    "content": "Implement search functionality by EZI_ADD key",
+    "status": "pending",
+    "id": "6"
+  },
+  {
+    "content": "Implement comparison counting (bit, node, string)",
+    "status": "pending",
+    "id": "7"
+  },
+  {
+    "content": "Implement output formatting for results",
+    "status": "pending",
+    "id": "8"
+  },
+  {
+    "content": "Test with sample datasets",
+    "status": "pending",
+    "id": "9"
+  }
+]

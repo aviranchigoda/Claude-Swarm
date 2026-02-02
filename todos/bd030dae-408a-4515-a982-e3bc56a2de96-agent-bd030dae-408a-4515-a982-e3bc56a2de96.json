@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Implement Redux store configuration and graph state management",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Create main Layout component with resizable panels",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Implement GraphLayoutEngine with hierarchical and force-directed layouts",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Create SelectionManager for graph node interactions",
+    "status": "completed",
+    "priority": "high",
+    "id": "4"
+  },
+  {
+    "content": "Build ContextWindowManager for LLM integration",
+    "status": "completed",
+    "priority": "high",
+    "id": "5"
+  }
+]

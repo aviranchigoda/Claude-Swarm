@@ -1,0 +1,17 @@
+[
+  {
+    "content": "Create scripts/hammer-preflight.sh with comprehensive checks",
+    "status": "in_progress",
+    "activeForm": "Creating hammer-preflight.sh script"
+  },
+  {
+    "content": "Update Makefile with hammer-preflight target",
+    "status": "pending",
+    "activeForm": "Updating Makefile with hammer-preflight target"
+  },
+  {
+    "content": "Test the preflight check",
+    "status": "pending",
+    "activeForm": "Testing the preflight check"
+  }
+]

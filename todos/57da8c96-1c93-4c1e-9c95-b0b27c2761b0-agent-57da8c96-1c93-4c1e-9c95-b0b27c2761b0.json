@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Implement Graph Visualization with D3.js/Cytoscape.js",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Create Basic UI Layout Components",
+    "status": "in_progress",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Implement JavaScript Parser with tree-sitter",
+    "status": "pending",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Build Linter Integration for ESLint and Pylint",
+    "status": "pending",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "Create First Refactoring Algorithm (Extract Method)",
+    "status": "pending",
+    "priority": "medium",
+    "id": "5"
+  }
+]

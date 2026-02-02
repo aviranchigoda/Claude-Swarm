@@ -1,0 +1,62 @@
+[
+  {
+    "content": "Create pyservice directory structure",
+    "status": "in_progress",
+    "activeForm": "Creating pyservice directory structure"
+  },
+  {
+    "content": "Add Python dependencies files",
+    "status": "pending",
+    "activeForm": "Adding Python dependencies files"
+  },
+  {
+    "content": "Implement config and database modules",
+    "status": "pending",
+    "activeForm": "Implementing config and database modules"
+  },
+  {
+    "content": "Create SQLAlchemy models matching Knex schema",
+    "status": "pending",
+    "activeForm": "Creating SQLAlchemy models matching Knex schema"
+  },
+  {
+    "content": "Implement base repository class",
+    "status": "pending",
+    "activeForm": "Implementing base repository class"
+  },
+  {
+    "content": "Add user and order repositories (read-only)",
+    "status": "pending",
+    "activeForm": "Adding user and order repositories (read-only)"
+  },
+  {
+    "content": "Add trade and allocation repositories (read-only)",
+    "status": "pending",
+    "activeForm": "Adding trade and allocation repositories (read-only)"
+  },
+  {
+    "content": "Add intention and receipt repositories (with writes)",
+    "status": "pending",
+    "activeForm": "Adding intention and receipt repositories (with writes)"
+  },
+  {
+    "content": "Add prediction market repository (read-only)",
+    "status": "pending",
+    "activeForm": "Adding prediction market repository (read-only)"
+  },
+  {
+    "content": "Create Node migration compatibility layer",
+    "status": "pending",
+    "activeForm": "Creating Node migration compatibility layer"
+  },
+  {
+    "content": "Set up Alembic scaffold (frozen)",
+    "status": "pending",
+    "activeForm": "Setting up Alembic scaffold (frozen)"
+  },
+  {
+    "content": "Add Makefile and README",
+    "status": "pending",
+    "activeForm": "Adding Makefile and README"
+  }
+]

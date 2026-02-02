@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Check if filesync binaries are built",
+    "status": "completed",
+    "activeForm": "Checking filesync binaries"
+  },
+  {
+    "content": "Start filesync server on Linux",
+    "status": "completed",
+    "activeForm": "Starting filesync server"
+  },
+  {
+    "content": "Create launchd plist for persistent client",
+    "status": "completed",
+    "activeForm": "Creating launchd plist"
+  },
+  {
+    "content": "Load and start the launchd service",
+    "status": "in_progress",
+    "activeForm": "Loading launchd service"
+  },
+  {
+    "content": "Test file sync with softwareiscool.md",
+    "status": "pending",
+    "activeForm": "Testing file sync"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Design comprehensive email data extraction strategy",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Create deep email parser for ALL financial patterns",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Extract merchant details from email bodies and attachments",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Build category classification system",
+    "status": "completed",
+    "id": "4"
+  },
+  {
+    "content": "Generate detailed analytics and insights",
+    "status": "completed",
+    "id": "5"
+  },
+  {
+    "content": "Run deep analyzer on all email accounts",
+    "status": "in_progress",
+    "id": "6"
+  }
+]

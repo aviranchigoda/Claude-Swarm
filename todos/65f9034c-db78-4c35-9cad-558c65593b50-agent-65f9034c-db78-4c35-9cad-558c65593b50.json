@@ -1,0 +1,52 @@
+[
+  {
+    "content": "Fix preload.js security context - Add missing IPC channels",
+    "status": "completed",
+    "activeForm": "Fixing preload.js security context - Adding missing IPC channels"
+  },
+  {
+    "content": "Fix DataLoader initialization timing in main.js",
+    "status": "completed",
+    "activeForm": "Fixing DataLoader initialization timing in main.js"
+  },
+  {
+    "content": "Add missing stats:update broadcast in main.js",
+    "status": "completed",
+    "activeForm": "Adding missing stats:update broadcast in main.js"
+  },
+  {
+    "content": "Fix MCPClient race condition in backend",
+    "status": "completed",
+    "activeForm": "Fixing MCPClient race condition in backend"
+  },
+  {
+    "content": "Fix relative paths in fallback UI loading",
+    "status": "completed",
+    "activeForm": "Fixing relative paths in fallback UI loading"
+  },
+  {
+    "content": "Add error handling to watchEvents method",
+    "status": "completed",
+    "activeForm": "Adding error handling to watchEvents method"
+  },
+  {
+    "content": "Fix DataLoader module exports",
+    "status": "completed",
+    "activeForm": "Fixing DataLoader module exports"
+  },
+  {
+    "content": "Verify canvas-container element initialization",
+    "status": "completed",
+    "activeForm": "Verifying canvas-container element initialization"
+  },
+  {
+    "content": "Test the UI after fixes",
+    "status": "completed",
+    "activeForm": "Testing the UI after fixes"
+  },
+  {
+    "content": "Diagnose MCP backend timeout issue",
+    "status": "pending",
+    "activeForm": "Diagnosing MCP backend timeout issue"
+  }
+]

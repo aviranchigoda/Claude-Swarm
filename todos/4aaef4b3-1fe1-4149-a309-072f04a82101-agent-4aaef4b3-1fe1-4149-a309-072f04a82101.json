@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Create modified codebaserunner.sh script",
+    "status": "completed",
+    "activeForm": "Creating modified codebaserunner.sh script"
+  },
+  {
+    "content": "Create modified directoryrunner.sh script",
+    "status": "completed",
+    "activeForm": "Creating modified directoryrunner.sh script"
+  },
+  {
+    "content": "Copy vertex-exchange to vertex-exchange-patch",
+    "status": "completed",
+    "activeForm": "Copying vertex-exchange to vertex-exchange-patch"
+  },
+  {
+    "content": "Initialize git in vertex-exchange as branch-1",
+    "status": "completed",
+    "activeForm": "Initializing git in vertex-exchange as branch-1"
+  },
+  {
+    "content": "Initialize git in vertex-exchange-patch as branch-2",
+    "status": "in_progress",
+    "activeForm": "Initializing git in vertex-exchange-patch as branch-2"
+  }
+]

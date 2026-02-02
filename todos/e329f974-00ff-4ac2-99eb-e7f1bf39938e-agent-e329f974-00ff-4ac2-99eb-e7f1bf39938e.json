@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Create Python API Dockerfile",
+    "status": "completed",
+    "activeForm": "Creating Python API Dockerfile"
+  },
+  {
+    "content": "Create Python API service files",
+    "status": "in_progress",
+    "activeForm": "Creating Python API service files"
+  },
+  {
+    "content": "Update docker-compose.yml",
+    "status": "pending",
+    "activeForm": "Updating docker-compose.yml"
+  },
+  {
+    "content": "Update nginx.conf for path splitting",
+    "status": "pending",
+    "activeForm": "Updating nginx.conf for path splitting"
+  },
+  {
+    "content": "Create Kubernetes Python API deployment",
+    "status": "pending",
+    "activeForm": "Creating Kubernetes Python API deployment"
+  },
+  {
+    "content": "Create Kubernetes service flip manifest",
+    "status": "pending",
+    "activeForm": "Creating Kubernetes service flip manifest"
+  }
+]

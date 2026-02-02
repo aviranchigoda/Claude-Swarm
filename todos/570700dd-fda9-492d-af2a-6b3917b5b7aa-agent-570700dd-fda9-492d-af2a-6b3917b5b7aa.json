@@ -1,0 +1,42 @@
+[
+  {
+    "content": "Download Sydney obfuscated .ovpn from NordVPN dashboard",
+    "status": "pending",
+    "activeForm": "Downloading Sydney obfuscated .ovpn from NordVPN dashboard"
+  },
+  {
+    "content": "Create optimized Sydney OpenVPN configuration file",
+    "status": "completed",
+    "activeForm": "Creating optimized Sydney OpenVPN configuration file"
+  },
+  {
+    "content": "Apply kernel network tuning (sysctl settings)",
+    "status": "completed",
+    "activeForm": "Applying kernel network tuning"
+  },
+  {
+    "content": "Update PF firewall rules for dual-server support",
+    "status": "pending",
+    "activeForm": "Updating PF firewall rules"
+  },
+  {
+    "content": "Create SSH optimization config for Sydney",
+    "status": "completed",
+    "activeForm": "Creating SSH optimization config"
+  },
+  {
+    "content": "Create Tunnelblick bundle for Sydney",
+    "status": "pending",
+    "activeForm": "Creating Tunnelblick bundle"
+  },
+  {
+    "content": "Create comprehensive lockdown document",
+    "status": "completed",
+    "activeForm": "Creating comprehensive lockdown document"
+  },
+  {
+    "content": "Verify installation and test connection",
+    "status": "pending",
+    "activeForm": "Verifying installation and testing connection"
+  }
+]

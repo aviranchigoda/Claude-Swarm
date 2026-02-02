@@ -1,0 +1,12 @@
+[
+  {
+    "content": "Install trash via Homebrew",
+    "status": "completed",
+    "activeForm": "Installing trash via Homebrew"
+  },
+  {
+    "content": "Add rm alias to /etc/zshrc for all users",
+    "status": "in_progress",
+    "activeForm": "Adding rm alias to /etc/zshrc - requires user to run sudo command"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "content": "Create rust/matching_engine directory structure",
+    "status": "completed",
+    "activeForm": "Creating rust/matching_engine directory structure"
+  },
+  {
+    "content": "Add matching.proto contract file",
+    "status": "completed",
+    "activeForm": "Adding matching.proto contract file"
+  },
+  {
+    "content": "Create Cargo.toml and build.rs",
+    "status": "completed",
+    "activeForm": "Creating Cargo.toml and build.rs"
+  },
+  {
+    "content": "Implement core types module",
+    "status": "completed",
+    "activeForm": "Implementing core types module"
+  },
+  {
+    "content": "Implement orderbook with B-tree and slab",
+    "status": "completed",
+    "activeForm": "Implementing orderbook with B-tree and slab"
+  },
+  {
+    "content": "Implement deterministic engine",
+    "status": "in_progress",
+    "activeForm": "Implementing deterministic engine"
+  },
+  {
+    "content": "Implement events and ledger modules",
+    "status": "pending",
+    "activeForm": "Implementing events and ledger modules"
+  },
+  {
+    "content": "Implement gRPC service",
+    "status": "pending",
+    "activeForm": "Implementing gRPC service"
+  },
+  {
+    "content": "Create main.rs entry point",
+    "status": "pending",
+    "activeForm": "Creating main.rs entry point"
+  },
+  {
+    "content": "Add util module",
+    "status": "pending",
+    "activeForm": "Adding util module"
+  },
+  {
+    "content": "Create Node.js adapter client",
+    "status": "pending",
+    "activeForm": "Creating Node.js adapter client"
+  },
+  {
+    "content": "Test Rust matching engine build",
+    "status": "pending",
+    "activeForm": "Testing Rust matching engine build"
+  }
+]

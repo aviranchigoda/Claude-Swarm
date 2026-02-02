@@ -1,0 +1,80 @@
+{
+  "version": 2,
+  "plugins": {
+    "clangd-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/ai_dev/.claude/plugins/cache/claude-plugins-official/clangd-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-23T06:02:26.243Z",
+        "lastUpdated": "2026-01-23T06:02:26.243Z"
+      }
+    ],
+    "code-review@claude-code-plugins": [
+      {
+        "scope": "user",
+        "installPath": "/home/ai_dev/.claude/plugins/cache/claude-code-plugins/code-review/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-26T08:37:07.610Z",
+        "lastUpdated": "2026-01-26T08:37:07.610Z",
+        "gitCommitSha": "e9a9efc1211bbd0a50ac0128c84526e3e355255a"
+      }
+    ],
+    "feature-dev@claude-code-plugins": [
+      {
+        "scope": "user",
+        "installPath": "/home/ai_dev/.claude/plugins/cache/claude-code-plugins/feature-dev/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-26T08:37:07.610Z",
+        "lastUpdated": "2026-01-26T08:37:07.610Z",
+        "gitCommitSha": "e9a9efc1211bbd0a50ac0128c84526e3e355255a"
+      }
+    ],
+    "pr-review-toolkit@claude-code-plugins": [
+      {
+        "scope": "user",
+        "installPath": "/home/ai_dev/.claude/plugins/cache/claude-code-plugins/pr-review-toolkit/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-26T08:37:07.610Z",
+        "lastUpdated": "2026-01-26T08:37:07.610Z",
+        "gitCommitSha": "e9a9efc1211bbd0a50ac0128c84526e3e355255a"
+      }
+    ],
+    "ralph-loop@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/ai_dev/.claude/plugins/cache/claude-plugins-official/ralph-loop/e30768372b41",
+        "version": "e30768372b41",
+        "installedAt": "2026-01-26T08:37:07.610Z",
+        "lastUpdated": "2026-01-27T00:40:10.053Z"
+      }
+    ],
+    "code-simplifier@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/ai_dev/.claude/plugins/cache/claude-plugins-official/code-simplifier/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-26T08:37:07.610Z",
+        "lastUpdated": "2026-01-27T00:40:10.051Z"
+      }
+    ],
+    "hookify@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/ai_dev/.claude/plugins/cache/claude-plugins-official/hookify/e30768372b41",
+        "version": "e30768372b41",
+        "installedAt": "2026-01-26T08:37:07.610Z",
+        "lastUpdated": "2026-01-27T00:40:10.055Z"
+      }
+    ],
+    "rust-analyzer-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/ai_dev/.claude/plugins/cache/claude-plugins-official/rust-analyzer-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-29T04:49:19.524Z",
+        "lastUpdated": "2026-01-29T04:49:19.524Z"
+      }
+    ]
+  }
+}

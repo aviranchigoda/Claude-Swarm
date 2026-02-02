@@ -1,0 +1,42 @@
+[
+  {
+    "content": "Explore the overall codebase structure and identify main components",
+    "status": "completed",
+    "activeForm": "Exploring the overall codebase structure and identifying main components"
+  },
+  {
+    "content": "Analyze the build system and dependencies",
+    "status": "completed",
+    "activeForm": "Analyzing the build system and dependencies"
+  },
+  {
+    "content": "Examine core source files and understand main functionality",
+    "status": "pending",
+    "activeForm": "Examining core source files and understanding main functionality"
+  },
+  {
+    "content": "Review configuration and data files",
+    "status": "pending",
+    "activeForm": "Reviewing configuration and data files"
+  },
+  {
+    "content": "Investigate any documentation or README files",
+    "status": "pending",
+    "activeForm": "Investigating any documentation or README files"
+  },
+  {
+    "content": "Check build script and INSTALL documentation",
+    "status": "completed",
+    "activeForm": "Checking build script and INSTALL documentation"
+  },
+  {
+    "content": "Fix GLM and Boost library detection issues",
+    "status": "completed",
+    "activeForm": "Fixing GLM and Boost library detection issues"
+  },
+  {
+    "content": "Rebuild Gource with proper configuration",
+    "status": "pending",
+    "activeForm": "Rebuilding Gource with proper configuration"
+  }
+]

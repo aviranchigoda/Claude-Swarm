@@ -1,0 +1,47 @@
+[
+  {
+    "content": "Design closed-loop trading architecture with real-world connectivity",
+    "status": "completed",
+    "activeForm": "Designing closed-loop architecture"
+  },
+  {
+    "content": "Implement low-level event loop and message bus (C)",
+    "status": "pending",
+    "activeForm": "Implementing event loop and message bus"
+  },
+  {
+    "content": "Implement network layer with WebSocket/REST clients (C)",
+    "status": "pending",
+    "activeForm": "Implementing network layer"
+  },
+  {
+    "content": "Implement real-time market data handler with latency tracking",
+    "status": "pending",
+    "activeForm": "Implementing market data handler"
+  },
+  {
+    "content": "Implement order execution engine with fill tracking",
+    "status": "pending",
+    "activeForm": "Implementing execution engine"
+  },
+  {
+    "content": "Implement feedback/telemetry system for entropy handling",
+    "status": "pending",
+    "activeForm": "Implementing telemetry system"
+  },
+  {
+    "content": "Implement Commonwealth Bank integration layer",
+    "status": "pending",
+    "activeForm": "Implementing bank integration"
+  },
+  {
+    "content": "Create orchestrator to close the entire feedback loop",
+    "status": "pending",
+    "activeForm": "Creating system orchestrator"
+  },
+  {
+    "content": "Build and verify complete system end-to-end",
+    "status": "pending",
+    "activeForm": "Building and verifying system"
+  }
+]

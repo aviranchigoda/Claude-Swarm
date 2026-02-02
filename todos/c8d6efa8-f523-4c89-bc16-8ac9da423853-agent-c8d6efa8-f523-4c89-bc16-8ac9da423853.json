@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Analyze the current Key and KeyBulletKin implementation",
+    "status": "completed",
+    "activeForm": "Analyzing the current Key and KeyBulletKin implementation"
+  },
+  {
+    "content": "Fix key pickup issue - ensure key can be picked up after KeyBulletKin dies",
+    "status": "in_progress",
+    "activeForm": "Fixing key pickup issue - ensuring key can be picked up after KeyBulletKin dies"
+  },
+  {
+    "content": "Fix multiple key count increment bug when touching key",
+    "status": "pending",
+    "activeForm": "Fixing multiple key count increment bug when touching key"
+  },
+  {
+    "content": "Implement treasure box opening with K key and key consumption",
+    "status": "pending",
+    "activeForm": "Implementing treasure box opening with K key and key consumption"
+  },
+  {
+    "content": "Test all key-related functionality",
+    "status": "pending",
+    "activeForm": "Testing all key-related functionality"
+  }
+]

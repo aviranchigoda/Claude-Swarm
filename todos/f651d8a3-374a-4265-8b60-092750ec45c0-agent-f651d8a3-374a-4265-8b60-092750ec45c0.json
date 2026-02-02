@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Phase 1: Pre-flight checks (VPS reachability, dependencies)",
+    "status": "completed",
+    "activeForm": "Running pre-flight checks"
+  },
+  {
+    "content": "Phase 2: Test Shadowsocks tunnel connectivity",
+    "status": "completed",
+    "activeForm": "Testing Shadowsocks tunnel"
+  },
+  {
+    "content": "Phase 3: Run monitor script (skipped - tunnel verified)",
+    "status": "completed",
+    "activeForm": "Running VPN monitor"
+  },
+  {
+    "content": "Phase 4: Test proxychains functionality",
+    "status": "completed",
+    "activeForm": "Testing proxychains"
+  },
+  {
+    "content": "Phase 5: Test vpn-control.sh status command",
+    "status": "completed",
+    "activeForm": "Testing control script"
+  },
+  {
+    "content": "Phase 6: Full lockdown test (optional - requires user confirmation)",
+    "status": "pending",
+    "activeForm": "Testing full lockdown"
+  }
+]

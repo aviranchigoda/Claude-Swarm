@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Analyze key pickup mechanism and fix continuous increment bug",
+    "status": "in_progress",
+    "activeForm": "Analyzing key pickup bug"
+  },
+  {
+    "content": "Verify key drops when KeyBulletKin dies",
+    "status": "pending",
+    "activeForm": "Checking KeyBulletKin death and key drop"
+  },
+  {
+    "content": "Fix treasure box opening with K key requirement",
+    "status": "pending",
+    "activeForm": "Fixing treasure box K key interaction"
+  },
+  {
+    "content": "Ensure key count decreases by 1 when opening treasure box",
+    "status": "pending",
+    "activeForm": "Verifying key consumption"
+  },
+  {
+    "content": "Test complete key-treasure box interaction flow",
+    "status": "pending",
+    "activeForm": "Testing key mechanics"
+  }
+]

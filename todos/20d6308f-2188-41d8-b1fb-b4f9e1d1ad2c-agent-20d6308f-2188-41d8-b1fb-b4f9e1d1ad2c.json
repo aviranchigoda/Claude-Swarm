@@ -1,0 +1,57 @@
+[
+  {
+    "content": "Sprint 1: Unify Protocol Buffers and delete duplicates",
+    "status": "completed",
+    "activeForm": "Sprint 1: Unifying Protocol Buffers and deleting duplicates"
+  },
+  {
+    "content": "Sprint 1: Fix idempotency in matching engine",
+    "status": "completed",
+    "activeForm": "Sprint 1: Fixing idempotency in matching engine"
+  },
+  {
+    "content": "Sprint 1: Harden Tauri CSP and allowlists",
+    "status": "completed",
+    "activeForm": "Sprint 1: Hardening Tauri CSP and allowlists"
+  },
+  {
+    "content": "Sprint 1: Fix Makefile portability and secrets",
+    "status": "completed",
+    "activeForm": "Sprint 1: Fixing Makefile portability and secrets"
+  },
+  {
+    "content": "Sprint 2: Persist sequences and implement broadcast streams",
+    "status": "completed",
+    "activeForm": "Sprint 2: Persisting sequences and implementing broadcast streams"
+  },
+  {
+    "content": "Sprint 2: Add expiration handling and self-trade prevention",
+    "status": "completed",
+    "activeForm": "Sprint 2: Adding expiration handling and self-trade prevention"
+  },
+  {
+    "content": "Sprint 3: Implement strongly typed risk policies",
+    "status": "pending",
+    "activeForm": "Sprint 3: Implementing strongly typed risk policies"
+  },
+  {
+    "content": "Sprint 3: Fix margin calculations and add persistent counters",
+    "status": "pending",
+    "activeForm": "Sprint 3: Fixing margin calculations and adding persistent counters"
+  },
+  {
+    "content": "Sprint 3: Implement exactly-once settlement",
+    "status": "pending",
+    "activeForm": "Sprint 3: Implementing exactly-once settlement"
+  },
+  {
+    "content": "Sprint 4: Add correlation IDs and observability",
+    "status": "pending",
+    "activeForm": "Sprint 4: Adding correlation IDs and observability"
+  },
+  {
+    "content": "Sprint 4: Desktop risk visualizations",
+    "status": "pending",
+    "activeForm": "Sprint 4: Desktop risk visualizations"
+  }
+]

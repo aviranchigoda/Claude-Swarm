@@ -1,0 +1,47 @@
+[
+  {
+    "content": "Create project structure and base files",
+    "status": "completed",
+    "activeForm": "Creating project structure and base files"
+  },
+  {
+    "content": "Implement title parser for seniority/role extraction",
+    "status": "completed",
+    "activeForm": "Implementing title parser for seniority/role extraction"
+  },
+  {
+    "content": "Build Levels.fyi salary scraper",
+    "status": "completed",
+    "activeForm": "Building Levels.fyi salary scraper"
+  },
+  {
+    "content": "Build Glassdoor salary scraper",
+    "status": "completed",
+    "activeForm": "Building Glassdoor salary scraper"
+  },
+  {
+    "content": "Build Seek.com.au salary scraper",
+    "status": "completed",
+    "activeForm": "Building Seek.com.au salary scraper"
+  },
+  {
+    "content": "Implement Claude LLM salary estimator",
+    "status": "completed",
+    "activeForm": "Implementing Claude LLM salary estimator"
+  },
+  {
+    "content": "Build ensemble model to combine estimates",
+    "status": "completed",
+    "activeForm": "Building ensemble model to combine estimates"
+  },
+  {
+    "content": "Create main orchestration script",
+    "status": "completed",
+    "activeForm": "Creating main orchestration script"
+  },
+  {
+    "content": "Test with sample jobs and verify output",
+    "status": "in_progress",
+    "activeForm": "Testing with sample jobs and verifying output"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Create hammer-dashboard.css with 3-column grid layout",
+    "status": "completed",
+    "activeForm": "Creating hammer-dashboard.css"
+  },
+  {
+    "content": "Create hammer-index.html with Hammer-focused layout",
+    "status": "completed",
+    "activeForm": "Creating hammer-index.html"
+  },
+  {
+    "content": "Create hammer-dashboard.js controller class",
+    "status": "completed",
+    "activeForm": "Creating hammer-dashboard.js"
+  },
+  {
+    "content": "Modify main.js to add HAMMER_MODE entry point",
+    "status": "completed",
+    "activeForm": "Modifying main.js"
+  },
+  {
+    "content": "Modify launch_desktop.sh to set HAMMER_MODE=1",
+    "status": "completed",
+    "activeForm": "Modifying launch_desktop.sh"
+  },
+  {
+    "content": "Test the new Hammer dashboard",
+    "status": "pending",
+    "activeForm": "Testing Hammer dashboard"
+  }
+]

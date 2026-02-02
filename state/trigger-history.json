@@ -1,0 +1,34 @@
+{
+  "history": [
+    {
+      "service": "pinecone",
+      "pattern": "^(start session|load context|what did we work on)",
+      "timestamp": "2026-02-02T01:18:24+00:00"
+    },
+    {
+      "service": "github",
+      "pattern": "^git status",
+      "timestamp": "2026-02-02T01:18:28+00:00"
+    },
+    {
+      "service": "greptile",
+      "pattern": "^explain codebase",
+      "timestamp": "2026-02-02T01:18:38+00:00"
+    },
+    {
+      "service": "composite",
+      "pattern": "^full analysis",
+      "timestamp": "2026-02-02T01:19:28+00:00"
+    }
+  ],
+  "stats": {
+    "pinecone": 1,
+    "github": 1,
+    "greptile": 1,
+    "serena": 0,
+    "context7": 0,
+    "firebase": 0,
+    "supabase": 0,
+    "composite": 1
+  }
+}

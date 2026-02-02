@@ -1,0 +1,67 @@
+[
+  {
+    "content": "Backup existing configs and check current state",
+    "status": "completed",
+    "activeForm": "Backing up existing configs and checking current state"
+  },
+  {
+    "content": "Remove NordVPN lockdown infrastructure",
+    "status": "completed",
+    "activeForm": "Removing NordVPN lockdown infrastructure"
+  },
+  {
+    "content": "Create Shadowsocks PF firewall rules",
+    "status": "completed",
+    "activeForm": "Creating Shadowsocks PF firewall rules"
+  },
+  {
+    "content": "Create root-level Shadowsocks config (/etc/shadowsocks/config.json)",
+    "status": "completed",
+    "activeForm": "Creating root-level Shadowsocks config"
+  },
+  {
+    "content": "Create Shadowsocks client LaunchDaemon",
+    "status": "completed",
+    "activeForm": "Creating Shadowsocks client LaunchDaemon"
+  },
+  {
+    "content": "Create firewall activation LaunchDaemon",
+    "status": "completed",
+    "activeForm": "Creating firewall activation LaunchDaemon"
+  },
+  {
+    "content": "Create pf.conf with shadowsocks anchor",
+    "status": "completed",
+    "activeForm": "Creating pf.conf with shadowsocks anchor"
+  },
+  {
+    "content": "Create management scripts (enable, disable, status)",
+    "status": "completed",
+    "activeForm": "Creating management scripts"
+  },
+  {
+    "content": "Create proxychains configuration",
+    "status": "completed",
+    "activeForm": "Creating proxychains configuration"
+  },
+  {
+    "content": "Create shell environment variables file",
+    "status": "completed",
+    "activeForm": "Creating shell environment variables"
+  },
+  {
+    "content": "Create installer and uninstaller scripts",
+    "status": "completed",
+    "activeForm": "Creating installer and uninstaller scripts"
+  },
+  {
+    "content": "Commit all files to git repository",
+    "status": "completed",
+    "activeForm": "Committing files to git repository"
+  },
+  {
+    "content": "Run installer with sudo to deploy all components",
+    "status": "pending",
+    "activeForm": "Running installer with sudo"
+  }
+]

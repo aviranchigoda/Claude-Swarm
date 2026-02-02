@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Set up Polymarket bot for dry-run testing (fastest path)",
+    "status": "completed",
+    "activeForm": "Setting up Polymarket bot for dry-run"
+  },
+  {
+    "content": "Install Python dependencies for Polymarket bot",
+    "status": "completed",
+    "activeForm": "Installing Python dependencies"
+  },
+  {
+    "content": "Configure environment variables",
+    "status": "completed",
+    "activeForm": "Configuring environment variables"
+  },
+  {
+    "content": "Test dry-run mode to verify system works",
+    "status": "completed",
+    "activeForm": "Testing dry-run mode"
+  },
+  {
+    "content": "Install PostgreSQL for live/paper trading",
+    "status": "pending",
+    "activeForm": "Installing PostgreSQL"
+  },
+  {
+    "content": "Build out C trading system (Binance connector)",
+    "status": "pending",
+    "activeForm": "Building C trading system"
+  }
+]

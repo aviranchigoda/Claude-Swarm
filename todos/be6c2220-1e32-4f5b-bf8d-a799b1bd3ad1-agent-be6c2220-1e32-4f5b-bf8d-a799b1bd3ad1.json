@@ -1,0 +1,17 @@
+[
+  {
+    "content": "Find all code files (.c, .h, Makefile, scripts)",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Read each file and compile into entire_codebase.txt",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Create entire_codebase.txt with clear titles",
+    "status": "completed",
+    "id": "3"
+  }
+]

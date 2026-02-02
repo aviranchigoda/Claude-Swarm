@@ -1,0 +1,49 @@
+{
+  "env": {
+    "DISABLE_AUTOUPDATER": "1"
+  },
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "CLAUDE_HOOK_EVENT=UserPromptSubmit bash ~/.claude/hooks/router.sh"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "CLAUDE_HOOK_EVENT=Stop bash ~/.claude/hooks/router.sh"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "CLAUDE_HOOK_EVENT=PostToolUse CLAUDE_FILE_PATH=\"$CLAUDE_FILE_PATH\" bash ~/.claude/hooks/router.sh"
+          }
+        ]
+      }
+    ]
+  },
+  "enabledPlugins": {
+    "clangd-lsp@claude-plugins-official": true,
+    "code-review@claude-code-plugins": true,
+    "feature-dev@claude-code-plugins": true,
+    "pr-review-toolkit@claude-code-plugins": true,
+    "ralph-loop@claude-plugins-official": true,
+    "code-simplifier@claude-plugins-official": true,
+    "hookify@claude-plugins-official": true,
+    "rust-analyzer-lsp@claude-plugins-official": true
+  },
+  "alwaysThinkingEnabled": true
+}

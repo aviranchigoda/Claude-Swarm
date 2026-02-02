@@ -1,0 +1,72 @@
+[
+  {
+    "content": "Create project directory structure",
+    "status": "in_progress",
+    "activeForm": "Creating project directory structure"
+  },
+  {
+    "content": "Write installation script (install.sh)",
+    "status": "pending",
+    "activeForm": "Writing installation script"
+  },
+  {
+    "content": "Implement EPUB parser module",
+    "status": "pending",
+    "activeForm": "Implementing EPUB parser"
+  },
+  {
+    "content": "Implement base TTS engine interface",
+    "status": "pending",
+    "activeForm": "Implementing base TTS interface"
+  },
+  {
+    "content": "Implement StyleTTS2 engine",
+    "status": "pending",
+    "activeForm": "Implementing StyleTTS2 engine"
+  },
+  {
+    "content": "Implement Edge TTS engine",
+    "status": "pending",
+    "activeForm": "Implementing Edge TTS engine"
+  },
+  {
+    "content": "Implement Piper TTS engine",
+    "status": "pending",
+    "activeForm": "Implementing Piper TTS engine"
+  },
+  {
+    "content": "Implement audio processor (M4B creation, speed control)",
+    "status": "pending",
+    "activeForm": "Implementing audio processor"
+  },
+  {
+    "content": "Implement voice selector with interactive UI",
+    "status": "pending",
+    "activeForm": "Implementing voice selector"
+  },
+  {
+    "content": "Implement config management",
+    "status": "pending",
+    "activeForm": "Implementing config management"
+  },
+  {
+    "content": "Implement main CLI with all commands",
+    "status": "pending",
+    "activeForm": "Implementing main CLI"
+  },
+  {
+    "content": "Create requirements.txt and setup.py",
+    "status": "pending",
+    "activeForm": "Creating requirements and setup files"
+  },
+  {
+    "content": "Write README documentation",
+    "status": "pending",
+    "activeForm": "Writing README"
+  },
+  {
+    "content": "Test with sample EPUB",
+    "status": "pending",
+    "activeForm": "Testing with sample EPUB"
+  }
+]

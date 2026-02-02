@@ -1,0 +1,26 @@
+[
+  {
+    "content": "Transform TradingChart component to monochromatic satellite interface style",
+    "status": "completed"
+  },
+  {
+    "content": "Update OrderBook component with military/surveillance aesthetic",
+    "status": "in_progress"
+  },
+  {
+    "content": "Redesign OrderPanel to match satellite interface",
+    "status": "pending"
+  },
+  {
+    "content": "Update Dashboard layout with HUD-style frames",
+    "status": "pending"
+  },
+  {
+    "content": "Transform MarketOverview to tactical display style",
+    "status": "pending"
+  },
+  {
+    "content": "Add scan line and crosshair effects to all panels",
+    "status": "pending"
+  }
+]

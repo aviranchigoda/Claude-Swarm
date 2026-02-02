@@ -1,0 +1,37 @@
+[
+  {
+    "content": "Analyze current parsing errors in the expense tracker",
+    "status": "in_progress",
+    "activeForm": "Analyzing current parsing errors"
+  },
+  {
+    "content": "Design improved email parsing algorithm with better validation",
+    "status": "pending",
+    "activeForm": "Designing improved parsing algorithm"
+  },
+  {
+    "content": "Implement enhanced vendor name extraction",
+    "status": "pending",
+    "activeForm": "Implementing vendor extraction"
+  },
+  {
+    "content": "Create better amount parsing with currency handling",
+    "status": "pending",
+    "activeForm": "Creating amount parsing logic"
+  },
+  {
+    "content": "Add ML-based classification for expense vs non-expense emails",
+    "status": "pending",
+    "activeForm": "Adding ML classification"
+  },
+  {
+    "content": "Implement validation and sanity checks",
+    "status": "pending",
+    "activeForm": "Implementing validation checks"
+  },
+  {
+    "content": "Test the improved extraction system",
+    "status": "pending",
+    "activeForm": "Testing extraction system"
+  }
+]

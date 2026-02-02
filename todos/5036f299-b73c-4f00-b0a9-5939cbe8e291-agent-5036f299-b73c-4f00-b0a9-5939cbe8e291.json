@@ -1,0 +1,57 @@
+[
+  {
+    "content": "Create observability foundation (metrics.ts)",
+    "status": "completed",
+    "activeForm": "Creating observability foundation (metrics.ts)"
+  },
+  {
+    "content": "Create audit system (audit.ts)",
+    "status": "completed",
+    "activeForm": "Creating audit system (audit.ts)"
+  },
+  {
+    "content": "Create tracing middleware (tracing.ts)",
+    "status": "completed",
+    "activeForm": "Creating tracing middleware (tracing.ts)"
+  },
+  {
+    "content": "Patch app.ts for metrics and tracing",
+    "status": "in_progress",
+    "activeForm": "Patching app.ts for metrics and tracing"
+  },
+  {
+    "content": "Patch compliance middleware for policy blocks",
+    "status": "pending",
+    "activeForm": "Patching compliance middleware for policy blocks"
+  },
+  {
+    "content": "Patch IntentionController for metrics and receipts",
+    "status": "pending",
+    "activeForm": "Patching IntentionController for metrics and receipts"
+  },
+  {
+    "content": "Patch globalOptimizer for metrics",
+    "status": "pending",
+    "activeForm": "Patching globalOptimizer for metrics"
+  },
+  {
+    "content": "Patch orders route for latency and slippage",
+    "status": "pending",
+    "activeForm": "Patching orders route for latency and slippage"
+  },
+  {
+    "content": "Patch WebSocket server for delivery metrics",
+    "status": "pending",
+    "activeForm": "Patching WebSocket server for delivery metrics"
+  },
+  {
+    "content": "Patch settlement job for buffer utilization",
+    "status": "pending",
+    "activeForm": "Patching settlement job for buffer utilization"
+  },
+  {
+    "content": "Update package.json with prom-client dependency",
+    "status": "pending",
+    "activeForm": "Updating package.json with prom-client dependency"
+  }
+]

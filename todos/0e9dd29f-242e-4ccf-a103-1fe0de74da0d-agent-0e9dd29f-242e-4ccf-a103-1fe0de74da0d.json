@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Explore current GraphRAG infrastructure files",
+    "status": "in_progress",
+    "activeForm": "Exploring current GraphRAG infrastructure files"
+  },
+  {
+    "content": "Create/update graphrag-setup.sh script with dependency installation",
+    "status": "pending",
+    "activeForm": "Creating graphrag-setup.sh script"
+  },
+  {
+    "content": "Update docker-compose.yml for Neo4j service",
+    "status": "pending",
+    "activeForm": "Updating docker-compose.yml for Neo4j"
+  },
+  {
+    "content": "Update Makefile with improved GraphRAG targets",
+    "status": "pending",
+    "activeForm": "Updating Makefile with GraphRAG targets"
+  },
+  {
+    "content": "Update build_knowledge_graph.py with better error handling",
+    "status": "pending",
+    "activeForm": "Updating build_knowledge_graph.py"
+  },
+  {
+    "content": "Validate the implementation",
+    "status": "pending",
+    "activeForm": "Validating the implementation"
+  }
+]

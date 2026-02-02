@@ -1,0 +1,12 @@
+[
+  {
+    "content": "Analyze current Makefile for redundancy",
+    "status": "completed",
+    "activeForm": "Analyzing current Makefile for redundancy"
+  },
+  {
+    "content": "Create simplified Makefile with pattern rules and functions",
+    "status": "in_progress",
+    "activeForm": "Creating simplified Makefile with pattern rules and functions"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "content": "Read and analyze Project 2 Task Sheet.docx for key/treasure box requirements",
+    "status": "completed",
+    "activeForm": "Reading and analyzing Project 2 Task Sheet.docx"
+  },
+  {
+    "content": "Read commit-plan.txt to understand implementation plan",
+    "status": "completed",
+    "activeForm": "Reading commit-plan.txt"
+  },
+  {
+    "content": "Analyze codebase structure and locate key-related classes",
+    "status": "completed",
+    "activeForm": "Analyzing codebase structure"
+  },
+  {
+    "content": "Fix key pickup issue after killing KeyBulletkin",
+    "status": "in_progress",
+    "activeForm": "Fixing key pickup issue"
+  },
+  {
+    "content": "Fix key count incrementing bug (should only increase by 1)",
+    "status": "pending",
+    "activeForm": "Fixing key count incrementing bug"
+  },
+  {
+    "content": "Implement treasure box opening with key",
+    "status": "pending",
+    "activeForm": "Implementing treasure box opening"
+  },
+  {
+    "content": "Test all key and treasure box interactions",
+    "status": "pending",
+    "activeForm": "Testing key and treasure box interactions"
+  }
+]

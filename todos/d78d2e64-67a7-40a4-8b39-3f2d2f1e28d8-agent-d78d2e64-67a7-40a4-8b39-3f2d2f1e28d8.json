@@ -1,0 +1,47 @@
+[
+  {
+    "content": "Examine main.c and header files to understand program structure",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Check for compilation errors",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Analyze code for runtime errors and logic issues",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Check for memory management issues",
+    "status": "completed",
+    "id": "4"
+  },
+  {
+    "content": "Verify file handling and error checking",
+    "status": "completed",
+    "id": "5"
+  },
+  {
+    "content": "Analyze modular structure - check header files",
+    "status": "completed",
+    "id": "6"
+  },
+  {
+    "content": "Verify separation of interface and implementation",
+    "status": "completed",
+    "id": "7"
+  },
+  {
+    "content": "Check compilation methods and Makefile",
+    "status": "completed",
+    "id": "8"
+  },
+  {
+    "content": "Verify adherence to professor's principles",
+    "status": "completed",
+    "id": "9"
+  }
+]

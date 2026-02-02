@@ -1,0 +1,42 @@
+[
+  {
+    "content": "Create backup directory structure on 194.195.123.136",
+    "status": "completed",
+    "activeForm": "Creating backup directory structure on backup server"
+  },
+  {
+    "content": "Create MASTER-RECOVERY.md on backup server",
+    "status": "completed",
+    "activeForm": "Creating emergency recovery documentation"
+  },
+  {
+    "content": "Set up SSH key exchange between servers for rsync",
+    "status": "pending",
+    "activeForm": "Setting up SSH key exchange for automated sync"
+  },
+  {
+    "content": "Create MacBook sync script (sync-to-backup.sh)",
+    "status": "completed",
+    "activeForm": "Creating MacBook sync script"
+  },
+  {
+    "content": "Perform initial sync of MacBook data to backup server",
+    "status": "in_progress",
+    "activeForm": "Syncing MacBook data to backup server"
+  },
+  {
+    "content": "Configure backup server firewall (UFW)",
+    "status": "completed",
+    "activeForm": "Configuring backup server firewall"
+  },
+  {
+    "content": "Install fail2ban on backup server",
+    "status": "completed",
+    "activeForm": "Installing fail2ban"
+  },
+  {
+    "content": "Provide Termius setup instructions for Face ID access",
+    "status": "in_progress",
+    "activeForm": "Providing Termius Face ID setup instructions"
+  }
+]

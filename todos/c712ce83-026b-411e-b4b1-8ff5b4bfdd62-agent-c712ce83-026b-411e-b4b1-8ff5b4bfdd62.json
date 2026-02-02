@@ -1,0 +1,26 @@
+[
+  {
+    "content": "Replace existing pylint_wrapper.py with enhanced version",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Create new eslint_wrapper.py with full implementation",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Apply compatibility fixes for existing codebase integration",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Test linter registry integration",
+    "status": "completed",
+    "priority": "medium",
+    "id": "4"
+  }
+]

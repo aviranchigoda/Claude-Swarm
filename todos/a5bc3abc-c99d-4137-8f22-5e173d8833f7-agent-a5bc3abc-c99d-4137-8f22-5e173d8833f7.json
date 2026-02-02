@@ -1,0 +1,47 @@
+[
+  {
+    "content": "Set up project structure and dependencies",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Implement Gmail API authentication for multiple accounts",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Create email fetching logic for past 3 years",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Build expense and subscription detection logic",
+    "status": "completed",
+    "id": "4"
+  },
+  {
+    "content": "Parse and categorize financial data from emails",
+    "status": "completed",
+    "id": "5"
+  },
+  {
+    "content": "Generate monthly expense and subscription reports",
+    "status": "completed",
+    "id": "6"
+  },
+  {
+    "content": "Test with all 5 email accounts",
+    "status": "completed",
+    "id": "7"
+  },
+  {
+    "content": "Create setup and usage instructions",
+    "status": "completed",
+    "id": "8"
+  },
+  {
+    "content": "Initialize git repository and push to GitHub",
+    "status": "completed",
+    "id": "9"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Create local simulation environment for macOS",
+    "status": "in_progress",
+    "activeForm": "Creating local simulation environment"
+  },
+  {
+    "content": "Build mock exchange data feeds",
+    "status": "pending",
+    "activeForm": "Building mock exchange data feeds"
+  },
+  {
+    "content": "Create data collection and logging infrastructure",
+    "status": "pending",
+    "activeForm": "Creating data collection infrastructure"
+  },
+  {
+    "content": "Build analysis and visualization tools",
+    "status": "pending",
+    "activeForm": "Building analysis tools"
+  },
+  {
+    "content": "Run simulation and collect sample data",
+    "status": "pending",
+    "activeForm": "Running simulation and collecting data"
+  }
+]

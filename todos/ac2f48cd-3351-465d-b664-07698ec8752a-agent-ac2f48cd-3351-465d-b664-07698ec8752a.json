@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Analyze existing codebase architecture and API surface",
+    "status": "in_progress",
+    "activeForm": "Analyzing existing codebase architecture and API surface"
+  },
+  {
+    "content": "Review current frontend scaffolds and identify gaps",
+    "status": "pending",
+    "activeForm": "Reviewing current frontend scaffolds"
+  },
+  {
+    "content": "Design comprehensive website architecture",
+    "status": "pending",
+    "activeForm": "Designing comprehensive website architecture"
+  },
+  {
+    "content": "Plan component hierarchy and state management",
+    "status": "pending",
+    "activeForm": "Planning component hierarchy and state management"
+  },
+  {
+    "content": "Write complete websitesetup_claude.md document",
+    "status": "pending",
+    "activeForm": "Writing websitesetup_claude.md document"
+  }
+]

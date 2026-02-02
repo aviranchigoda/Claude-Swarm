@@ -1,0 +1,72 @@
+[
+  {
+    "content": "Create directory structure and initialize state files",
+    "status": "in_progress",
+    "activeForm": "Creating directory structure and state files"
+  },
+  {
+    "content": "Create PINECONE-ADVANCED.md documentation",
+    "status": "pending",
+    "activeForm": "Creating PINECONE-ADVANCED.md documentation"
+  },
+  {
+    "content": "Create GITHUB-ADVANCED.md documentation",
+    "status": "pending",
+    "activeForm": "Creating GITHUB-ADVANCED.md documentation"
+  },
+  {
+    "content": "Create GREPTILE-ADVANCED.md documentation",
+    "status": "pending",
+    "activeForm": "Creating GREPTILE-ADVANCED.md documentation"
+  },
+  {
+    "content": "Create SERENA-ADVANCED.md documentation",
+    "status": "pending",
+    "activeForm": "Creating SERENA-ADVANCED.md documentation"
+  },
+  {
+    "content": "Create CONTEXT7-ADVANCED.md documentation",
+    "status": "pending",
+    "activeForm": "Creating CONTEXT7-ADVANCED.md documentation"
+  },
+  {
+    "content": "Create FIREBASE-ADVANCED.md documentation",
+    "status": "pending",
+    "activeForm": "Creating FIREBASE-ADVANCED.md documentation"
+  },
+  {
+    "content": "Create SUPABASE-ADVANCED.md documentation",
+    "status": "pending",
+    "activeForm": "Creating SUPABASE-ADVANCED.md documentation"
+  },
+  {
+    "content": "Create COMPOSITE-WORKFLOWS.md and HOOK-REFERENCE.md",
+    "status": "pending",
+    "activeForm": "Creating composite workflows and hook reference docs"
+  },
+  {
+    "content": "Create enhanced mcp-router.sh with 150+ triggers",
+    "status": "pending",
+    "activeForm": "Creating enhanced mcp-router.sh"
+  },
+  {
+    "content": "Create safety gate hooks (production-guard, rate-limiter, cost-guardian)",
+    "status": "pending",
+    "activeForm": "Creating safety gate hooks"
+  },
+  {
+    "content": "Create observability hooks (audit-logger, auto-formatter)",
+    "status": "pending",
+    "activeForm": "Creating observability hooks"
+  },
+  {
+    "content": "Update settings.json with multi-layer hook configuration",
+    "status": "pending",
+    "activeForm": "Updating settings.json configuration"
+  },
+  {
+    "content": "Update CLAUDE-CODE-MCP-HOOKS-SYSTEM.md with new features",
+    "status": "pending",
+    "activeForm": "Updating main documentation file"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "content": "Restart filesync-server with higher FD limits",
+    "status": "completed",
+    "activeForm": "Restarting filesync-server with higher FD limits"
+  },
+  {
+    "content": "Re-run client sync to transfer remaining files",
+    "status": "completed",
+    "activeForm": "Re-running client sync to transfer remaining files"
+  },
+  {
+    "content": "Use rsync for reliable sync",
+    "status": "in_progress",
+    "activeForm": "Using rsync for reliable sync"
+  }
+]

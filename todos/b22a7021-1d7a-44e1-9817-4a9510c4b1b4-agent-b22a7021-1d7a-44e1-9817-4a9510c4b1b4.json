@@ -1,0 +1,72 @@
+[
+  {
+    "content": "Acquire NVIDIA Linux workstation components (RTX 3090, Ryzen 7 7700, 64GB DDR5, etc.)",
+    "status": "pending",
+    "activeForm": "Acquiring NVIDIA Linux workstation components"
+  },
+  {
+    "content": "Acquire Mac Mini M4 Pro 48GB/1TB with Apple gift card",
+    "status": "pending",
+    "activeForm": "Acquiring Mac Mini M4 Pro"
+  },
+  {
+    "content": "Assemble NVIDIA Linux workstation and install Ubuntu 24.04",
+    "status": "pending",
+    "activeForm": "Assembling NVIDIA Linux workstation"
+  },
+  {
+    "content": "Configure Linux kernel optimizations (hugepages, isolcpus, etc.)",
+    "status": "pending",
+    "activeForm": "Configuring Linux kernel optimizations"
+  },
+  {
+    "content": "Install CUDA 12.x, cuDNN, PyTorch, vLLM, Ray on Linux node",
+    "status": "pending",
+    "activeForm": "Installing AI software stack on Linux"
+  },
+  {
+    "content": "Set up Mac Mini with MLX, llama.cpp, Ray",
+    "status": "pending",
+    "activeForm": "Setting up Mac Mini AI software"
+  },
+  {
+    "content": "Configure Ray cluster across all three nodes",
+    "status": "pending",
+    "activeForm": "Configuring Ray cluster"
+  },
+  {
+    "content": "Set up NFS shared storage for models",
+    "status": "pending",
+    "activeForm": "Setting up NFS shared storage"
+  },
+  {
+    "content": "Create ai_signal_receiver.hpp/cpp for ZeroMQ integration",
+    "status": "pending",
+    "activeForm": "Creating C++ AI signal receiver"
+  },
+  {
+    "content": "Build and train anomaly detector model",
+    "status": "pending",
+    "activeForm": "Building anomaly detector model"
+  },
+  {
+    "content": "Build and train price predictor model",
+    "status": "pending",
+    "activeForm": "Building price predictor model"
+  },
+  {
+    "content": "Set up sentiment analyzer on Mac Mini with MLX",
+    "status": "pending",
+    "activeForm": "Setting up sentiment analyzer"
+  },
+  {
+    "content": "Integrate AI signals into trading strategy",
+    "status": "pending",
+    "activeForm": "Integrating AI signals into trading"
+  },
+  {
+    "content": "Full integration testing and backtesting",
+    "status": "pending",
+    "activeForm": "Running integration tests"
+  }
+]

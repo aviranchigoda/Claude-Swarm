@@ -1,0 +1,17 @@
+[
+  {
+    "content": "Run combine_codebase.sh from the root directory",
+    "status": "completed",
+    "activeForm": "Running combine_codebase.sh from the root directory"
+  },
+  {
+    "content": "Run text_run.sh from within original_submission directory",
+    "status": "in_progress",
+    "activeForm": "Running text_run.sh from within original_submission directory"
+  },
+  {
+    "content": "Show the location of output files",
+    "status": "pending",
+    "activeForm": "Showing the location of output files"
+  }
+]

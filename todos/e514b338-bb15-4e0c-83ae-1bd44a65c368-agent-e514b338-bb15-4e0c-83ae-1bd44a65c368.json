@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Fix watcher memory corruption",
+    "status": "completed",
+    "activeForm": "Fixed watcher - disabled FSEvents temporarily"
+  },
+  {
+    "content": "Add debug logging to server assembler",
+    "status": "completed",
+    "activeForm": "Added debug logging"
+  },
+  {
+    "content": "Fix use-after-free bug in block handler",
+    "status": "completed",
+    "activeForm": "Fixed use-after-free bug"
+  },
+  {
+    "content": "Increase MAX_PENDING_FILES to 4096",
+    "status": "completed",
+    "activeForm": "Increased pending files limit"
+  },
+  {
+    "content": "Redeploy and test sync",
+    "status": "in_progress",
+    "activeForm": "Redeploying updated server"
+  }
+]

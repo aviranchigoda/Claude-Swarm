@@ -1,0 +1,42 @@
+[
+  {
+    "content": "Explore lit-llama directory structure and identify main components",
+    "status": "in_progress",
+    "activeForm": "Exploring lit-llama directory structure and identifying main components"
+  },
+  {
+    "content": "Analyze core model architecture and implementation",
+    "status": "pending",
+    "activeForm": "Analyzing core model architecture and implementation"
+  },
+  {
+    "content": "Examine training and fine-tuning capabilities",
+    "status": "pending",
+    "activeForm": "Examining training and fine-tuning capabilities"
+  },
+  {
+    "content": "Review data preparation and preprocessing scripts",
+    "status": "pending",
+    "activeForm": "Reviewing data preparation and preprocessing scripts"
+  },
+  {
+    "content": "Analyze generation and inference capabilities",
+    "status": "pending",
+    "activeForm": "Analyzing generation and inference capabilities"
+  },
+  {
+    "content": "Examine adapter and LoRA implementations",
+    "status": "pending",
+    "activeForm": "Examining adapter and LoRA implementations"
+  },
+  {
+    "content": "Review testing and evaluation framework",
+    "status": "pending",
+    "activeForm": "Reviewing testing and evaluation framework"
+  },
+  {
+    "content": "Analyze quantization and optimization features",
+    "status": "pending",
+    "activeForm": "Analyzing quantization and optimization features"
+  }
+]

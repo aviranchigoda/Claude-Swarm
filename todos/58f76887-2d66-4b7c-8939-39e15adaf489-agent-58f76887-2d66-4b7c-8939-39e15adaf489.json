@@ -1,0 +1,77 @@
+[
+  {
+    "content": "Create GameContext class to replace static global state",
+    "status": "completed",
+    "activeForm": "Creating GameContext class"
+  },
+  {
+    "content": "Create abstract Room class with template method pattern",
+    "status": "completed",
+    "activeForm": "Creating Room template hierarchy"
+  },
+  {
+    "content": "Define capability interfaces (Drawable, Updatable, Collidable, etc.)",
+    "status": "completed",
+    "activeForm": "Defining capability interfaces"
+  },
+  {
+    "content": "Extract CharacterAbility strategy interface and implementations",
+    "status": "completed",
+    "activeForm": "Extracting CharacterAbility strategy"
+  },
+  {
+    "content": "Extract Weapon strategy interface and implementations",
+    "status": "in_progress",
+    "activeForm": "Extracting Weapon strategy"
+  },
+  {
+    "content": "Create CollisionSystem for centralized collision handling",
+    "status": "pending",
+    "activeForm": "Creating CollisionSystem"
+  },
+  {
+    "content": "Create EntityFactory for property-based entity creation",
+    "status": "pending",
+    "activeForm": "Creating EntityFactory"
+  },
+  {
+    "content": "Implement observer pattern for UI state updates",
+    "status": "pending",
+    "activeForm": "Implementing observer pattern"
+  },
+  {
+    "content": "Create InputRouter with command pattern for input handling",
+    "status": "pending",
+    "activeForm": "Creating InputRouter"
+  },
+  {
+    "content": "Refactor Door with DoorListener interface",
+    "status": "pending",
+    "activeForm": "Refactoring Door system"
+  },
+  {
+    "content": "Consolidate projectiles into single polymorphic collection",
+    "status": "pending",
+    "activeForm": "Consolidating projectiles"
+  },
+  {
+    "content": "Extract Store and Purchasable interfaces",
+    "status": "pending",
+    "activeForm": "Extracting Store interfaces"
+  },
+  {
+    "content": "Implement AwardCoinsOnDestruction interface for baskets",
+    "status": "completed",
+    "activeForm": "Implementing coin award interface"
+  },
+  {
+    "content": "Create package structure for better organization",
+    "status": "completed",
+    "activeForm": "Creating package structure"
+  },
+  {
+    "content": "Create EventBus for decoupled communication",
+    "status": "completed",
+    "activeForm": "Creating EventBus"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Create the Claude Actors multi-output generation system",
+    "status": "in_progress",
+    "activeForm": "Creating the Claude Actors system"
+  },
+  {
+    "content": "Create claude_actors directory structure",
+    "status": "completed",
+    "activeForm": "Creating directory structure"
+  },
+  {
+    "content": "Implement actor generation (3 parallel Claude calls)",
+    "status": "completed",
+    "activeForm": "Implementing actor generation"
+  },
+  {
+    "content": "Implement judge evaluation system",
+    "status": "completed",
+    "activeForm": "Implementing judge evaluation"
+  },
+  {
+    "content": "Test the complete workflow",
+    "status": "in_progress",
+    "activeForm": "Testing the workflow"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "content": "Unable to locate improvements.cleaned.txt file",
+    "status": "completed",
+    "activeForm": "File not found"
+  },
+  {
+    "content": "Waiting for user to provide the file content or correct location",
+    "status": "in_progress",
+    "activeForm": "Waiting for file"
+  }
+]

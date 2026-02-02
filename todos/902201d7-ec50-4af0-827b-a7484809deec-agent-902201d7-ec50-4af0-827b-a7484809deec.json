@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Check for large files in the repository",
+    "status": "completed",
+    "activeForm": "Checking for large files in the repository"
+  },
+  {
+    "content": "Identify files that may be causing the push to fail",
+    "status": "completed",
+    "activeForm": "Identifying files that may be causing the push to fail"
+  },
+  {
+    "content": "Create a .gitignore file to exclude unnecessary files",
+    "status": "completed",
+    "activeForm": "Creating a .gitignore file to exclude unnecessary files"
+  },
+  {
+    "content": "Remove large/binary files from git history if needed",
+    "status": "completed",
+    "activeForm": "Removing large/binary files from git history if needed"
+  },
+  {
+    "content": "Retry the push to GitHub",
+    "status": "in_progress",
+    "activeForm": "Retrying the push to GitHub"
+  }
+]

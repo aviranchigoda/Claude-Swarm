@@ -1,0 +1,42 @@
+[
+  {
+    "content": "Create NYSE Pillar protocol builder (src/protocol/nyse_pillar.h)",
+    "status": "completed",
+    "activeForm": "Creating NYSE Pillar protocol builder"
+  },
+  {
+    "content": "Create ARCA Direct protocol builder (src/protocol/arca_direct.h)",
+    "status": "completed",
+    "activeForm": "Creating ARCA Direct protocol builder"
+  },
+  {
+    "content": "Create ef_vi kernel bypass receiver (src/broker/efvi_receiver.h)",
+    "status": "completed",
+    "activeForm": "Creating ef_vi kernel bypass receiver"
+  },
+  {
+    "content": "Create exchange gateway manager (src/broker/exchange_gateway.h)",
+    "status": "completed",
+    "activeForm": "Creating exchange gateway manager"
+  },
+  {
+    "content": "Create lock-free order state machine (src/broker/order_state.h)",
+    "status": "pending",
+    "activeForm": "Creating lock-free order state machine"
+  },
+  {
+    "content": "Create clearing firm FIX interface (src/broker/clearing_fix.h)",
+    "status": "pending",
+    "activeForm": "Creating clearing firm FIX interface"
+  },
+  {
+    "content": "Create CAT reporter (src/regulatory/cat_reporter.h)",
+    "status": "pending",
+    "activeForm": "Creating CAT reporter"
+  },
+  {
+    "content": "Modify risk_engine.h for 15c3-5 compliance",
+    "status": "pending",
+    "activeForm": "Modifying risk_engine.h for 15c3-5 compliance"
+  }
+]

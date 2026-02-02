@@ -1,0 +1,12 @@
+[
+  {
+    "content": "Update entirecodebase.txt with current source code",
+    "status": "in_progress",
+    "activeForm": "Updating entirecodebase.txt with current source code"
+  },
+  {
+    "content": "Update entire_project_files.txt with current project state",
+    "status": "pending",
+    "activeForm": "Updating entire_project_files.txt with current project state"
+  }
+]
