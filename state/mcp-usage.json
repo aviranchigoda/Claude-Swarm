@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "daily": {},
+  "totals": {
+    "pinecone": {"calls": 0, "last_used": null},
+    "github": {"calls": 0, "last_used": null},
+    "greptile": {"calls": 0, "last_used": null},
+    "serena": {"calls": 0, "last_used": null},
+    "context7": {"calls": 0, "last_used": null},
+    "firebase": {"calls": 0, "last_used": null},
+    "supabase": {"calls": 0, "last_used": null}
+  }
+}
