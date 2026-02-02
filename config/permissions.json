@@ -1,0 +1,60 @@
+{
+  "version": "1.0",
+  "description": "Auto-approved permissions for Claude Code",
+  "auto_approve": {
+    "bash": [
+      "find:*",
+      "tmux:*",
+      "zip:*",
+      "apt list:*",
+      "sudo apt-get install:*",
+      "python3:*",
+      "cat:*",
+      "ls:*",
+      "grep:*",
+      "head:*",
+      "tail:*",
+      "xargs:*",
+      "jq:*",
+      "mkdir:*",
+      "cp:*",
+      "mv:*",
+      "chmod:*",
+      "date:*",
+      "echo:*",
+      "which:*",
+      "pwd:*",
+      "cd:*"
+    ],
+    "web": {
+      "search": true,
+      "fetch_domains": [
+        "www.apple.com",
+        "docs.python.org",
+        "developer.mozilla.org"
+      ]
+    },
+    "mcp": [
+      "github.get_file_contents",
+      "pinecone.search-records",
+      "pinecone.describe-index-stats",
+      "serena.read_file",
+      "serena.list_dir",
+      "context7.resolve-library-id",
+      "context7.query-docs"
+    ]
+  },
+  "require_confirmation": {
+    "bash": [
+      "rm:*",
+      "sudo:*",
+      "git push:*",
+      "git reset:*"
+    ],
+    "mcp": [
+      "pinecone.upsert-records",
+      "github.create_pull_request",
+      "supabase.apply_migration"
+    ]
+  }
+}

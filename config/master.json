@@ -1,0 +1,73 @@
+{
+  "version": "1.0",
+  "name": "claude-unified-config",
+  "description": "Master configuration for the unified Claude Code system",
+  "system": {
+    "auto_update": false,
+    "thinking_mode": "always",
+    "model_preference": "claude-opus-4-5"
+  },
+  "hooks": {
+    "router": "~/.claude/hooks/router.sh",
+    "events": {
+      "UserPromptSubmit": true,
+      "PostToolUse": true,
+      "Stop": true
+    }
+  },
+  "state": {
+    "enabled": true,
+    "directory": "~/.claude/state",
+    "persist_sessions": true,
+    "track_triggers": true,
+    "audit_logging": true
+  },
+  "logging": {
+    "enabled": true,
+    "level": "info",
+    "audit_file": "~/.claude/state/audit.jsonl"
+  },
+  "plugins": {
+    "enabled": [
+      "clangd-lsp@claude-plugins-official",
+      "code-review@claude-code-plugins",
+      "feature-dev@claude-code-plugins",
+      "pr-review-toolkit@claude-code-plugins",
+      "ralph-loop@claude-plugins-official",
+      "code-simplifier@claude-plugins-official",
+      "hookify@claude-plugins-official",
+      "rust-analyzer-lsp@claude-plugins-official"
+    ]
+  },
+  "mcp_servers": {
+    "pinecone": {
+      "namespaces": ["sessions", "blueprints", "architecture", "todos", "decisions"]
+    },
+    "github": {
+      "default_org": null
+    },
+    "greptile": {
+      "enabled": true
+    },
+    "serena": {
+      "enabled": true
+    },
+    "context7": {
+      "enabled": true
+    },
+    "firebase": {
+      "enabled": true
+    },
+    "supabase": {
+      "enabled": true
+    }
+  },
+  "paths": {
+    "config": "~/.claude/config",
+    "state": "~/.claude/state",
+    "docs": "~/.claude/docs",
+    "hooks": "~/.claude/hooks",
+    "plans": "~/.claude/plans",
+    "projects": "~/.claude/projects"
+  }
+}

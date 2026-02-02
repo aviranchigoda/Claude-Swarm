@@ -1,0 +1,339 @@
+{
+  "version": "1.0",
+  "description": "Unified MCP trigger configuration for Claude Code",
+  "pinecone": [
+    {
+      "pattern": "^(start session|load context|what did we work on)",
+      "action": "SESSION_START",
+      "message": "Execute SESSION START protocol - Query Pinecone sessions, todos, and decisions namespaces"
+    },
+    {
+      "pattern": "^(end session|done|save session|wrapping up|done for today)",
+      "action": "SESSION_END",
+      "message": "Execute SESSION END protocol - Generate summary and store in Pinecone"
+    },
+    {
+      "pattern": "^search blueprints",
+      "action": "SEARCH",
+      "namespace": "blueprints",
+      "message": "Search blueprints namespace in Pinecone"
+    },
+    {
+      "pattern": "^search architecture",
+      "action": "SEARCH",
+      "namespace": "architecture",
+      "message": "Search architecture namespace in Pinecone"
+    },
+    {
+      "pattern": "^add todo",
+      "action": "UPSERT",
+      "namespace": "todos",
+      "message": "Upsert to todos namespace in Pinecone"
+    },
+    {
+      "pattern": "^add decision",
+      "action": "UPSERT",
+      "namespace": "decisions",
+      "message": "Upsert ADR to decisions namespace in Pinecone"
+    },
+    {
+      "pattern": "^pinecone stats",
+      "action": "STATS",
+      "message": "Run describe-index-stats on Pinecone"
+    },
+    {
+      "pattern": "^search sessions",
+      "action": "SEARCH",
+      "namespace": "sessions",
+      "message": "Search sessions namespace in Pinecone"
+    },
+    {
+      "pattern": "^search todos",
+      "action": "SEARCH",
+      "namespace": "todos",
+      "message": "Search todos namespace in Pinecone"
+    },
+    {
+      "pattern": "^search decisions",
+      "action": "SEARCH",
+      "namespace": "decisions",
+      "message": "Search decisions namespace in Pinecone"
+    }
+  ],
+  "github": [
+    {
+      "pattern": "^git status",
+      "action": "STATUS",
+      "message": "Show repo status and recent commits"
+    },
+    {
+      "pattern": "^create pr",
+      "action": "CREATE_PR",
+      "message": "Create pull request"
+    },
+    {
+      "pattern": "^list issues",
+      "action": "LIST_ISSUES",
+      "message": "List open issues"
+    },
+    {
+      "pattern": "^create issue",
+      "action": "CREATE_ISSUE",
+      "message": "Create new issue"
+    },
+    {
+      "pattern": "^review pr",
+      "action": "REVIEW_PR",
+      "message": "Review pull request"
+    },
+    {
+      "pattern": "^commit changes",
+      "action": "COMMIT",
+      "message": "Stage and commit all changes"
+    },
+    {
+      "pattern": "^push changes",
+      "action": "PUSH",
+      "message": "Push to remote"
+    },
+    {
+      "pattern": "^list prs",
+      "action": "LIST_PRS",
+      "message": "List pull requests"
+    },
+    {
+      "pattern": "^merge pr",
+      "action": "MERGE_PR",
+      "message": "Merge pull request"
+    },
+    {
+      "pattern": "^list branches",
+      "action": "LIST_BRANCHES",
+      "message": "List branches"
+    }
+  ],
+  "greptile": [
+    {
+      "pattern": "^explain codebase",
+      "action": "OVERVIEW",
+      "message": "Semantic architecture overview using Greptile"
+    },
+    {
+      "pattern": "^find implementation",
+      "action": "SEARCH",
+      "message": "Search for implementation using Greptile"
+    },
+    {
+      "pattern": "^trace flow",
+      "action": "TRACE",
+      "message": "Trace execution path using Greptile"
+    },
+    {
+      "pattern": "^find callers",
+      "action": "REFERENCES",
+      "message": "Find all usages using Greptile"
+    },
+    {
+      "pattern": "^similar code",
+      "action": "SIMILAR",
+      "message": "Find similar patterns using Greptile"
+    },
+    {
+      "pattern": "^code review",
+      "action": "REVIEW",
+      "message": "Quality and security review using Greptile"
+    },
+    {
+      "pattern": "^greptile search",
+      "action": "SEARCH",
+      "message": "Search codebase using Greptile"
+    }
+  ],
+  "serena": [
+    {
+      "pattern": "^analyze project",
+      "action": "ACTIVATE",
+      "message": "Activate and analyze project using Serena"
+    },
+    {
+      "pattern": "^list symbols",
+      "action": "SYMBOLS",
+      "message": "Get symbols overview using Serena"
+    },
+    {
+      "pattern": "^find pattern",
+      "action": "SEARCH",
+      "message": "Regex search using Serena"
+    },
+    {
+      "pattern": "^read file",
+      "action": "READ",
+      "message": "Read file contents using Serena"
+    },
+    {
+      "pattern": "^list dir",
+      "action": "LIST",
+      "message": "List directory using Serena"
+    },
+    {
+      "pattern": "^find symbol",
+      "action": "FIND_SYMBOL",
+      "message": "Find symbol definition using Serena"
+    },
+    {
+      "pattern": "^find references",
+      "action": "FIND_REFS",
+      "message": "Find referencing symbols using Serena"
+    },
+    {
+      "pattern": "^serena memories",
+      "action": "LIST_MEMORIES",
+      "message": "List Serena memories"
+    }
+  ],
+  "context7": [
+    {
+      "pattern": "^lookup docs",
+      "action": "SEARCH",
+      "message": "Find documentation using Context7"
+    },
+    {
+      "pattern": "^how to use",
+      "action": "EXAMPLES",
+      "message": "Find usage examples using Context7"
+    },
+    {
+      "pattern": "^api reference",
+      "action": "API",
+      "message": "Fetch API docs using Context7"
+    },
+    {
+      "pattern": "^protocol spec",
+      "action": "SPEC",
+      "message": "Find protocol specification using Context7"
+    },
+    {
+      "pattern": "^library docs",
+      "action": "LIBRARY",
+      "message": "Search library documentation using Context7"
+    }
+  ],
+  "firebase": [
+    {
+      "pattern": "^firebase status",
+      "action": "LIST_PROJECTS",
+      "message": "List Firebase projects"
+    },
+    {
+      "pattern": "^deploy firebase",
+      "action": "DEPLOY",
+      "message": "Deploy to Firebase"
+    },
+    {
+      "pattern": "^firebase logs",
+      "action": "LOGS",
+      "message": "View Firebase logs"
+    },
+    {
+      "pattern": "^firestore query",
+      "action": "QUERY",
+      "message": "Query Firestore"
+    },
+    {
+      "pattern": "^firebase init",
+      "action": "INIT",
+      "message": "Initialize Firebase in project"
+    },
+    {
+      "pattern": "^firebase apps",
+      "action": "LIST_APPS",
+      "message": "List Firebase apps"
+    }
+  ],
+  "supabase": [
+    {
+      "pattern": "^supabase status",
+      "action": "STATUS",
+      "message": "Check Supabase connection"
+    },
+    {
+      "pattern": "^list tables",
+      "action": "SCHEMA",
+      "message": "Show Supabase schema"
+    },
+    {
+      "pattern": "^query table",
+      "action": "SELECT",
+      "message": "Execute SELECT on Supabase"
+    },
+    {
+      "pattern": "^insert into",
+      "action": "INSERT",
+      "message": "Insert record into Supabase"
+    },
+    {
+      "pattern": "^run migration",
+      "action": "MIGRATE",
+      "message": "Run Supabase migration"
+    },
+    {
+      "pattern": "^supabase projects",
+      "action": "LIST_PROJECTS",
+      "message": "List Supabase projects"
+    },
+    {
+      "pattern": "^deploy function",
+      "action": "DEPLOY_FUNCTION",
+      "message": "Deploy Supabase edge function"
+    }
+  ],
+  "image": [
+    {
+      "pattern": "^(show images|list images|recent images|recent screenshots)",
+      "action": "LIST_IMAGES",
+      "message": "List recent images from ~/.claude/paste-cache/images/"
+    },
+    {
+      "pattern": "^(latest image|last screenshot|show screenshot|latest screenshot)",
+      "action": "SHOW_LATEST",
+      "message": "Get most recent image path"
+    },
+    {
+      "pattern": "^clear images",
+      "action": "CLEAR_IMAGES",
+      "message": "Clear old images (keep last 10)"
+    }
+  ],
+  "composite": [
+    {
+      "pattern": "^full analysis",
+      "mcps": ["serena", "greptile", "pinecone", "context7"],
+      "action": "MULTI_ANALYSIS",
+      "message": "Full codebase analysis using Serena + Greptile + Pinecone + Context7"
+    },
+    {
+      "pattern": "^deploy all",
+      "mcps": ["github", "firebase", "supabase", "pinecone"],
+      "action": "MULTI_DEPLOY",
+      "message": "Deploy to all platforms: GitHub + Firebase/Supabase + Pinecone"
+    },
+    {
+      "pattern": "^daily standup",
+      "mcps": ["pinecone", "github"],
+      "action": "STANDUP",
+      "message": "Daily standup: Load Pinecone context + GitHub status"
+    },
+    {
+      "pattern": "^research topic",
+      "mcps": ["context7", "greptile", "pinecone"],
+      "action": "RESEARCH",
+      "message": "Research topic using Context7 + Greptile + Pinecone"
+    },
+    {
+      "pattern": "^sync context",
+      "mcps": ["pinecone", "serena"],
+      "action": "SYNC",
+      "message": "Sync context between Pinecone and Serena"
+    }
+  ]
+}
