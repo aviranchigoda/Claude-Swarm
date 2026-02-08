@@ -76,7 +76,7 @@ get_trigger_message() {
 # =============================================================================
 match_trigger() {
     local input="$1"
-    local services=("pinecone" "github" "greptile" "serena" "context7" "firebase" "supabase" "image" "composite")
+    local services=("pinecone" "github" "greptile" "serena" "context7" "firebase" "supabase" "image" "composite" "emrakul")
 
     for service in "${services[@]}"; do
         local count=$(get_trigger_count "$service")

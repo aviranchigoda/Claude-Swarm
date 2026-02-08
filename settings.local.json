@@ -83,7 +83,8 @@
       "WebSearch",
       "WebFetch(domain:www.apple.com)",
       "mcp__github__get_file_contents",
-      "Bash(test:*)"
+      "Bash(test:*)",
+      "Bash(chmod:*)"
     ]
   }
 }

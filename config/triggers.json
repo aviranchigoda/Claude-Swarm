@@ -58,6 +58,12 @@
       "action": "SEARCH",
       "namespace": "decisions",
       "message": "Search decisions namespace in Pinecone"
+    },
+    {
+      "pattern": "^search delegations|^delegation history",
+      "action": "SEARCH",
+      "namespace": "delegations",
+      "message": "Search delegations namespace in Pinecone for past patterns"
     }
   ],
   "github": [
@@ -307,33 +313,85 @@
   "composite": [
     {
       "pattern": "^full analysis",
-      "mcps": ["serena", "greptile", "pinecone", "context7"],
+      "mcps": [
+        "serena",
+        "greptile",
+        "pinecone",
+        "context7"
+      ],
       "action": "MULTI_ANALYSIS",
       "message": "Full codebase analysis using Serena + Greptile + Pinecone + Context7"
     },
     {
       "pattern": "^deploy all",
-      "mcps": ["github", "firebase", "supabase", "pinecone"],
+      "mcps": [
+        "github",
+        "firebase",
+        "supabase",
+        "pinecone"
+      ],
       "action": "MULTI_DEPLOY",
       "message": "Deploy to all platforms: GitHub + Firebase/Supabase + Pinecone"
     },
     {
       "pattern": "^daily standup",
-      "mcps": ["pinecone", "github"],
+      "mcps": [
+        "pinecone",
+        "github"
+      ],
       "action": "STANDUP",
       "message": "Daily standup: Load Pinecone context + GitHub status"
     },
     {
       "pattern": "^research topic",
-      "mcps": ["context7", "greptile", "pinecone"],
+      "mcps": [
+        "context7",
+        "greptile",
+        "pinecone"
+      ],
       "action": "RESEARCH",
       "message": "Research topic using Context7 + Greptile + Pinecone"
     },
     {
       "pattern": "^sync context",
-      "mcps": ["pinecone", "serena"],
+      "mcps": [
+        "pinecone",
+        "serena"
+      ],
       "action": "SYNC",
       "message": "Sync context between Pinecone and Serena"
+    }
+  ],
+  "emrakul": [
+    {
+      "pattern": "^delegate to cursor|^cursor implement|^cursor refactor",
+      "action": "DELEGATE_CURSOR",
+      "message": "Use: emrakul delegate cursor \"<task>\" --files <context>"
+    },
+    {
+      "pattern": "^delegate to codex|^debug with codex|^codex test",
+      "action": "DELEGATE_CODEX",
+      "message": "Use: emrakul delegate codex \"<task>\""
+    },
+    {
+      "pattern": "^delegate to kimi|^research with kimi|^kimi research",
+      "action": "DELEGATE_KIMI",
+      "message": "Use: emrakul delegate kimi \"<task>\""
+    },
+    {
+      "pattern": "^delegate to opencode|^quick fix|^opencode edit",
+      "action": "DELEGATE_OPENCODE",
+      "message": "Use: emrakul delegate opencode \"<task>\""
+    },
+    {
+      "pattern": "^emrakul status|^check workers|^worker status",
+      "action": "EMRAKUL_STATUS",
+      "message": "Run: emrakul status all"
+    },
+    {
+      "pattern": "^parallel delegate|^batch tasks|^parallel tasks",
+      "action": "EMRAKUL_BATCH",
+      "message": "Use --bg & for parallel: emrakul delegate worker \"task\" --bg &"
     }
   ]
 }

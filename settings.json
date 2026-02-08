@@ -33,6 +33,17 @@
           }
         ]
       }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Task",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ~/.claude/hooks/handlers/pre-tool.sh"
+          }
+        ]
+      }
     ]
   },
   "enabledPlugins": {

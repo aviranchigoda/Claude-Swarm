@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "content": "Understand mode identity vs permission identity",
+    "status": "completed",
+    "activeForm": "Analyzing mode vs permission identity"
+  },
+  {
+    "content": "Analyze Plan Mode's core constraints",
+    "status": "in_progress",
+    "activeForm": "Analyzing Plan Mode constraints"
+  },
+  {
+    "content": "Analyze Normal Mode's core behavior",
+    "status": "pending",
+    "activeForm": "Analyzing Normal Mode behavior"
+  },
+  {
+    "content": "Analyze Accept Edit Mode's mechanics",
+    "status": "pending",
+    "activeForm": "Analyzing Accept Edit Mode"
+  },
+  {
+    "content": "Determine if permissions are orthogonal to mode identity",
+    "status": "pending",
+    "activeForm": "Determining orthogonality"
+  },
+  {
+    "content": "Engineer unified solution",
+    "status": "pending",
+    "activeForm": "Engineering unified solution"
+  }
+]

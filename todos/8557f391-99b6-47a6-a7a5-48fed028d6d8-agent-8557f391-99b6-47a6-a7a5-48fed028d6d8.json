@@ -1,52 +1,52 @@
 [
   {
     "content": "Phase 0: Create safety git branch",
-    "status": "in_progress",
+    "status": "completed",
     "activeForm": "Creating safety git branch"
   },
   {
     "content": "Phase 1: Create PreToolUse hook handler",
-    "status": "pending",
+    "status": "completed",
     "activeForm": "Creating PreToolUse hook handler"
   },
   {
     "content": "Phase 2: Update settings.json for PreToolUse",
-    "status": "pending",
+    "status": "completed",
     "activeForm": "Updating settings.json for PreToolUse"
   },
   {
     "content": "Phase 3: Update CLAUDE.md with delegation instructions",
-    "status": "pending",
+    "status": "completed",
     "activeForm": "Updating CLAUDE.md with delegation instructions"
   },
   {
     "content": "Phase 4: Add Emrakul triggers to triggers.json",
-    "status": "pending",
+    "status": "completed",
     "activeForm": "Adding Emrakul triggers to triggers.json"
   },
   {
     "content": "Phase 5: Copy system prompts from Emrakul",
-    "status": "pending",
+    "status": "completed",
     "activeForm": "Copying system prompts from Emrakul"
   },
   {
     "content": "Phase 6: Create EMRAKUL.md documentation",
-    "status": "pending",
+    "status": "completed",
     "activeForm": "Creating EMRAKUL.md documentation"
   },
   {
     "content": "Phase 7: Add delegations namespace to Pinecone config",
-    "status": "pending",
+    "status": "completed",
     "activeForm": "Adding delegations namespace to Pinecone config"
   },
   {
     "content": "Phase 8: Update common.sh for Emrakul triggers",
-    "status": "pending",
+    "status": "completed",
     "activeForm": "Updating common.sh for Emrakul triggers"
   },
   {
     "content": "Phase 9: Commit all changes",
-    "status": "pending",
+    "status": "in_progress",
     "activeForm": "Committing all changes"
   },
   {
