@@ -1,0 +1,57 @@
+[
+  {
+    "content": "Phase 0: Create safety git branch",
+    "status": "in_progress",
+    "activeForm": "Creating safety git branch"
+  },
+  {
+    "content": "Phase 1: Create PreToolUse hook handler",
+    "status": "pending",
+    "activeForm": "Creating PreToolUse hook handler"
+  },
+  {
+    "content": "Phase 2: Update settings.json for PreToolUse",
+    "status": "pending",
+    "activeForm": "Updating settings.json for PreToolUse"
+  },
+  {
+    "content": "Phase 3: Update CLAUDE.md with delegation instructions",
+    "status": "pending",
+    "activeForm": "Updating CLAUDE.md with delegation instructions"
+  },
+  {
+    "content": "Phase 4: Add Emrakul triggers to triggers.json",
+    "status": "pending",
+    "activeForm": "Adding Emrakul triggers to triggers.json"
+  },
+  {
+    "content": "Phase 5: Copy system prompts from Emrakul",
+    "status": "pending",
+    "activeForm": "Copying system prompts from Emrakul"
+  },
+  {
+    "content": "Phase 6: Create EMRAKUL.md documentation",
+    "status": "pending",
+    "activeForm": "Creating EMRAKUL.md documentation"
+  },
+  {
+    "content": "Phase 7: Add delegations namespace to Pinecone config",
+    "status": "pending",
+    "activeForm": "Adding delegations namespace to Pinecone config"
+  },
+  {
+    "content": "Phase 8: Update common.sh for Emrakul triggers",
+    "status": "pending",
+    "activeForm": "Updating common.sh for Emrakul triggers"
+  },
+  {
+    "content": "Phase 9: Commit all changes",
+    "status": "pending",
+    "activeForm": "Committing all changes"
+  },
+  {
+    "content": "Phase 10: Run validation checklist",
+    "status": "pending",
+    "activeForm": "Running validation checklist"
+  }
+]
