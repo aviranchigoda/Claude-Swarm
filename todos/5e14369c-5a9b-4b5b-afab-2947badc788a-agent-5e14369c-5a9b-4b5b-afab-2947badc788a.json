@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Create pre-upgrade git backup branch",
+    "status": "completed",
+    "activeForm": "Creating pre-upgrade backup branch"
+  },
+  {
+    "content": "Add autoUpdates: true to ~/.claude.json",
+    "status": "completed",
+    "activeForm": "Adding autoUpdates setting"
+  },
+  {
+    "content": "Install Claude Code 2.1.37 via npm",
+    "status": "completed",
+    "activeForm": "Installing Claude Code 2.1.37"
+  },
+  {
+    "content": "Update model_preference to claude-opus-4-6",
+    "status": "completed",
+    "activeForm": "Updating model preference"
+  },
+  {
+    "content": "Verify hooks still work",
+    "status": "completed",
+    "activeForm": "Verifying hooks"
+  },
+  {
+    "content": "Commit all changes",
+    "status": "in_progress",
+    "activeForm": "Committing changes"
+  }
+]
