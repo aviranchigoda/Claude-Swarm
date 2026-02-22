@@ -84,6 +84,73 @@ This is a unified, modular Claude Code configuration system providing intelligen
 | `daily standup` | Pinecone + GitHub | Load context + show status |
 | `research topic` | Context7 + Greptile + Pinecone | Research using multiple sources |
 
+### Worker Delegation (Emrakul)
+| Command | Worker | Action |
+|---------|--------|--------|
+| `delegate to cursor` | cursor | Implementation, multi-file refactors (Opus 4.5) |
+| `delegate to codex` | codex | Debugging, tests, call tracing (GPT-5.2) |
+| `delegate to kimi` | kimi | Internet research, documentation (Kimi K2.5) |
+| `delegate to opencode` | opencode | Quick edits, small fixes (GLM 4.7) |
+| `emrakul status` | - | Check background task outputs |
+| `parallel delegate` | - | Fire multiple tasks with `--bg &` |
+
+---
+
+## Worker Delegation System (Emrakul)
+
+> **CRITICAL:** Never use Claude Code's native Task tool - it burns 20x quota per sub-agent call.
+> Use `emrakul delegate` for all work that would require sub-agents.
+
+### Worker Selection Guide
+
+| Worker | Model | Best For | Billing |
+|--------|-------|----------|---------|
+| `cursor` | Opus 4.5 Thinking | Implementation, multi-file refactors | Cursor credits |
+| `codex` | GPT-5.2 Codex | Debugging, tests, call tracing | OpenAI API |
+| `kimi` | Kimi K2.5 | Internet research, documentation | Moonshot API |
+| `opencode` | GLM 4.7 | Quick edits, small fixes | xAI API |
+
+### Delegation Commands
+
+```bash
+# Single task (blocks until complete)
+emrakul delegate cursor "Implement JWT authentication" --device local
+emrakul delegate codex "Write tests for auth module"
+emrakul delegate kimi "Research OAuth 2.0 best practices"
+emrakul delegate opencode "Fix typo in config.py"
+
+# With context files
+emrakul delegate cursor "Refactor this module" --files auth.py user.py
+
+# Parallel execution (fire and forget)
+emrakul delegate kimi "Research topic A" --bg &
+emrakul delegate kimi "Research topic B" --bg &
+emrakul delegate cursor "Implement feature C" --bg &
+
+# Check all results
+emrakul status all
+```
+
+### Options
+
+- `--device local|theodolos` - Execution target (default: local)
+- `--files file1.py file2.py` - Context files to include
+- `--bg` - Background mode (fire and forget)
+- `--dir /path/to/project` - Working directory
+- `--output /path/to/out.json` - Custom output file
+
+### When to Delegate
+
+1. **Multi-file implementation** -> `cursor`
+2. **Debugging/testing** -> `codex`
+3. **Internet research** -> `kimi`
+4. **Quick single-file fix** -> `opencode`
+5. **Simple read/edit** -> Do it yourself (no delegation needed)
+
+### Output Location
+
+Background task outputs saved to: `~/.emrakul/outputs/`
+
 ---
 
 ## Session Protocols

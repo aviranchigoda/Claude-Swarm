@@ -38,7 +38,7 @@ case "$EVENT" in
         ;;
 
     PreToolUse)
-        # Future: Add pre-tool validation
+        echo "$INPUT" | "$SCRIPT_DIR/handlers/pre-tool.sh"
         ;;
 
     *)

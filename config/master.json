@@ -5,7 +5,7 @@
   "system": {
     "auto_update": false,
     "thinking_mode": "always",
-    "model_preference": "claude-opus-4-5"
+    "model_preference": "claude-opus-4-6"
   },
   "hooks": {
     "router": "~/.claude/hooks/router.sh",
@@ -41,7 +41,14 @@
   },
   "mcp_servers": {
     "pinecone": {
-      "namespaces": ["sessions", "blueprints", "architecture", "todos", "decisions"]
+      "namespaces": [
+        "sessions",
+        "blueprints",
+        "architecture",
+        "todos",
+        "decisions",
+        "delegations"
+      ]
     },
     "github": {
       "default_org": null
